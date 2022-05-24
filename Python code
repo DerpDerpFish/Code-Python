@@ -1,0 +1,9 @@
+sum = 0
+c = 0
+while(sum <= 100):
+    n = int(input("Enter a number: "))
+    c = c + 1
+    sum = sum + n
+
+print("Sum: " + str(sum))
+print("Numbers Entered: " + str(c))
